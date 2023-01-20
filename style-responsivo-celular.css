@@ -1,0 +1,43 @@
+/*Modelo responsivo para telefono celular (smartphone) con pantallas menores a 375pixels de ancho*/
+
+@media screen and (max-width:375px){
+	
+	h1 img{	
+		width:25%;
+		margin:15%;
+	}
+	
+	.area1, .area2{
+		position:static;
+		width:85%;
+		margin-left:5%;
+	}	
+
+	.area1-2 .boton{
+		display:block;
+		width:100%;
+		margin-bottom:5%;
+	}
+	
+	.area2-1{
+		width:100%;
+		margin:2% 2%;
+		padding-bottom:5%;
+	}
+	
+	.area2-1 textarea{
+		margin-top:5%;
+		padding-bottom:50%;
+		font-size: 1.5em;
+	}
+	
+	.area2-1 .mensaje-2{
+		margin:10% 0% 5% 0%;
+	}
+	
+	.marca{
+		width:0%;
+		margin:0%;
+	}
+
+}

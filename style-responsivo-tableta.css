@@ -1,0 +1,50 @@
+/*Modelo responsivo para tabletas electronicas (tablets) con pantallas menores a 768pixels de ancho pero mayores a 375 pixeles de ancho*/
+
+@media screen and (max-width:768px) and (min-width:376px){
+	
+	h1 img{	
+		width:25%;
+		margin:15%;
+	}
+	
+	.area1, .area2{
+		position:static;
+		width:85%;
+		margin-left:5%;
+	}	
+	
+	.area1-2{
+		margin-left:2.5%;
+	}
+	
+	.area1-2 .boton{
+		width:45%;
+	}
+	
+	.area2-1{
+		width:100%;
+		margin:2%;
+		padding-bottom:5%;
+	}
+	
+	.area2-1 textarea{
+		margin-top:5%;
+		padding-bottom:50%;
+		font-size: 1.5em;
+	}
+	
+	.marca{
+		width:0%;
+		margin:auto;
+	}
+	
+	.area2-1 .mensaje-2{
+		margin:10% 0% 5% 0%;
+	}
+	
+	#cop{
+	width:80%;	
+	margin:15% 10% 0 10%;
+	}
+
+}
